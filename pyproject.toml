@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "testautomation"
+version = "0.1.0"
+description = "playing with robot framework"
+authors = ["codyargyle <codyargyle17@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+robotframework = "^7.1"
+robotframework-browser = "^18.8.1"
+robotframework-requests = "^0.9.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1 (Python 3.10.12 on linux)" generated="2024-09-19T21:36:35.613321" rpa="false" schemaversion="5">
+<suite id="s1" name="Test Example" source="/home/cody/Documents/codyCodes/robot/test_example.robot">
+<test id="s1-t1" name="Test A Simple Pass Case" line="5">
+<kw name="Simple Pass Test" owner="my_test_library">
+<msg time="2024-09-19T21:36:35.635673" level="INFO">${result} = True</msg>
+<var>${result}</var>
+<status status="PASS" start="2024-09-19T21:36:35.635458" elapsed="0.000251"/>
+</kw>
+<kw name="Should Be True" owner="BuiltIn">
+<arg>${result}</arg>
+<doc>Fails if the given condition is not true.</doc>
+<status status="PASS" start="2024-09-19T21:36:35.635959" elapsed="0.000211"/>
+</kw>
+<status status="PASS" start="2024-09-19T21:36:35.634471" elapsed="0.002005"/>
+</test>
+<status status="PASS" start="2024-09-19T21:36:35.614312" elapsed="0.022744"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test Example">Test Example</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
